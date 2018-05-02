@@ -43,7 +43,7 @@ class App extends Component {
 
   render() {
     let someElement = '';
-    if (this.props.reduxState.firstReducer != 0){
+    if (this.props.reduxState.firstReducer !== 0){
       someElement = <p>{this.props.reduxState.firstReducer}</p>
     }
     return (
